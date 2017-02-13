@@ -1,0 +1,9 @@
+start
+declare variables, num1, num2, product, difference, quotient, and sum
+read values num1 and num2
+add num1 and num2 and assign the result to sum
+subtract num1 and num2 and assign the result to difference
+divide num1 and num2 and assign the result to quotient
+multiply num1 and num2 and assign the result to product
+display sum, difference, quotient, and product
+stop
