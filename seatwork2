@@ -1,0 +1,8 @@
+Step 1: Start
+Step 2: Declare variables, name, hrs, hrw, dr, grossrate, deduction, and netpay.
+Step 3: Input values name, hrs, hrw, and dr.
+Step 4: Multiply hrs and hrw and assign the result to grossrate.
+Step 5: Multiply grossrate and dr and assign the result to deduction.
+Step 6: Subtract grossrate and deduction and assign the result to netpay.
+Step 7: Display name, grossrate, deduction, and netpay.
+Step 8: Stop
