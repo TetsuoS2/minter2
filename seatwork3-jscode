@@ -3,20 +3,20 @@
 var numgrade = 98;
   if (numgrade =>97) {
     document.getElementById("demo").innerHTML = "Your grade is 4.0.";
-  } else if (numgrade =>93) {
+  } else if (numgrade =>92||=<96) {
     document.getElementById("demo").innerHTML = "Your grade is 3.5.";
-  } else if (numgrade =>89) {
+  } else if (numgrade =>89||=<91) {
     document.getElementById("demo").innerHTML = "Your grade is 3.0.";
-  } else if (numgrade =>85) {
+  } else if (numgrade =>85||=<88) {
     document.getElementById("demo").innerHTML = "Your grade is 2.5.";
-  } else if (numgrade =>80) {
+  } else if (numgrade =>80||=<84) {
     document.getElementById("demo").innerHTML = "Your grade is 2.0.";
-  } else if (numgrade =>75) {
+  } else if (numgrade =>75||=<79) {
     document.getElementById("demo").innerHTML = "Your grade is 1.5.";
-  } else if (numgrade =>70) {
+  } else if (numgrade =>70||=<74) {
     document.getElementById("demo").innerHTML = "Your grade is 1.0.";
   } else {
-    document.getElementById("demo").innerHTML = "Your grade is 3.5.";
+    document.getElementById("demo").innerHTML = "Your grade is 0.";
   }
   
   </script>
