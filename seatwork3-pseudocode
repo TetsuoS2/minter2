@@ -1,5 +1,5 @@
 Step 1: Start
-Step 2: Declare variables, numgrade, and letgrade.
+Step 2: Declare variable, numgrade.
 Step 3: Input numgrade.
 Step 4: if (numgrade =>100 || =<97) then innerhtml Your grade is 4.0
 Step 5: else if (numgrade =>96 || =<93) then innerhtml Your grade is 3.5
