@@ -1,0 +1,22 @@
+<p id="demo"></p>
+<script>
+var numgrade = 98;
+  if (numgrade =>97) {
+    document.getElementById("demo").innerHTML = "Your grade is 4.0.";
+  } else if (numgrade =>93) {
+    document.getElementById("demo").innerHTML = "Your grade is 3.5.";
+  } else if (numgrade =>89) {
+    document.getElementById("demo").innerHTML = "Your grade is 3.0.";
+  } else if (numgrade =>85) {
+    document.getElementById("demo").innerHTML = "Your grade is 2.5.";
+  } else if (numgrade =>80) {
+    document.getElementById("demo").innerHTML = "Your grade is 2.0.";
+  } else if (numgrade =>75) {
+    document.getElementById("demo").innerHTML = "Your grade is 1.5.";
+  } else if (numgrade =>70) {
+    document.getElementById("demo").innerHTML = "Your grade is 1.0.";
+  } else {
+    document.getElementById("demo").innerHTML = "Your grade is 3.5.";
+  }
+  
+  </script>
