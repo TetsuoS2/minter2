@@ -1,19 +1,19 @@
 <p id="demo"></p>
 <script>
-var x = 80
-  if (x >=97) {
+  var x = 71
+  if (x >= 97) {
     document.getElementById("demo").innerHTML = "Your grade is 4.0.";
-  } else if (x <=96 && x >=92) {
+  } else if (x <= 96 && x >= 92) {
     document.getElementById("demo").innerHTML = "Your grade is 3.5.";
-  } else if (x <=91 && x >=89) {
+  } else if (x <= 91 && x >= 89) {
     document.getElementById("demo").innerHTML = "Your grade is 3.0.";
-  } else if (x <=88 && x >=85) {
+  } else if (x <= 88 && x >= 85) {
     document.getElementById("demo").innerHTML = "Your grade is 2.5.";
-  } else if (x <=84 && x >=80) {
+  } else if (x <= 84 && x >= 80) {
     document.getElementById("demo").innerHTML = "Your grade is 2.0.";
-  } else if (x <=75 && x >=79) {
+  } else if (x <= 79 && x >= 75) {
     document.getElementById("demo").innerHTML = "Your grade is 1.5.";
-  } else if (x <=70 && x >=74) {
+  } else if (x <= 74 && x >= 70) {
     document.getElementById("demo").innerHTML = "Your grade is 1.0.";
   } else {
     document.getElementById("demo").innerHTML = "Your grade is 0.";
