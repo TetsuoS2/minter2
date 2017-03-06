@@ -1,0 +1,12 @@
+Step 1: Start
+Step 2: Declare variables, numgrade, and letgrade.
+Step 3: Input numgrade.
+Step 4: if (numgrade =>100 || =<97) then innerhtml Your grade is 4.0
+Step 5: else if (numgrade =>96 || =<93) then innerhtml Your grade is 3.5
+Step 6: else if (numgrade =>92 || =<89) then innerhtml Your grade is 3.0
+Step 7: else if (numgrade =>88 || =<85) then innerhtml Your grade is 2.5
+Step 8: else if (numgrade =>84 || =<80) then innerhtml Your grade is 2.0
+Step 9: else if (numgrade =>79 || =<75) then innerhtml Your grade is 1.5
+Step 10: else if (numgrade =>74 || =<70) then innerhtml Your grade is 1.0
+Step 11: else (numgrade =<70) then innerhtml Your grade is 0
+Step 12: End
