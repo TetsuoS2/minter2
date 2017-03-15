@@ -5,6 +5,15 @@ var greetings = ['Happy Birthday!',
                  'A happy Christmas to all the family',
                  'You\'re all I want for Christmas',
                  'Get well soon'];
-  var newgreetings = greetings.slice(1, 4);
+
+for (var i = 0; i < greetings.length; i++) {
+  var input = greetings[i];
+  // Your conditional test needs to go inside the parentheses
+  // in the line below, replacing what's currently there
+  if (greetings[i]) {
+    var result = input;
+    var listItem = document.createElement('li');
+    listItem.textContent = result;
+    list.appendChild(listItem);
   }
 }
