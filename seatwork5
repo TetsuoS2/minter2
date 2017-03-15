@@ -1,3 +1,5 @@
+<p id="demo"></p>
+<script>
 var list = document.querySelector('.output ul');
 list.innerHTML = '';
 var greetings = ['Happy Birthday!',
@@ -8,12 +10,11 @@ var greetings = ['Happy Birthday!',
 
 for (var i = 0; i < greetings.length; i++) {
   var input = greetings[i];
-  // Your conditional test needs to go inside the parentheses
-  // in the line below, replacing what's currently there
-  if (greetings[i]) {
+  if (greetings[i].slice(1,4)) {
     var result = input;
     var listItem = document.createElement('li');
     listItem.textContent = result;
     list.appendChild(listItem);
   }
 }
+</script>
