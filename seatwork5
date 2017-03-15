@@ -5,13 +5,6 @@ var greetings = ['Happy Birthday!',
                  'A happy Christmas to all the family',
                  'You\'re all I want for Christmas',
                  'Get well soon'];
-for (var i = 0; i < greetings.length; i++) {
-  var input = greetings[i];
   var newgreetings = greetings.slice(1, 4);
-  if (greetings[i]) {
-    var result = input;
-    var listItem = document.createElement('li');
-    listItem.textContent = result;
-    list.appendChild(listItem);
   }
 }
